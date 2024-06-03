@@ -12,14 +12,14 @@
 
 <body>
   <header class="header">
-    <div class="container">
+    <div class="container__header container flex">
       <a href="#" class="header__logo" target="_blank">
         <img class="header__logo" src="./img/logo.svg" alt="Логотип компании">
       </a>
       <nav class="header__nav">
-        <ul class="header__list">
+        <ul class="header__list list flex">
           <li class="header__item">
-            <a href="# " class="header__link">
+            <a href="#" class="header__link header__link_home">
               Home
             </a>
           </li>
@@ -50,20 +50,184 @@
           </li>
         </ul>
       </nav>
-      <button class="btn header__btn">Free Trial</button>
+      <button class="header__btn button">Free Trial</button>
     </div>
   </header>
 
   <main class="main">
-    <section id="hero" class="home">
-
+    <section class="hero">
+      <div class="container container__hero">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            This is&nbsp;simply a&nbsp;smarter way to&nbsp;make your legal online
+          </h1>
+          <p class="hero__desc desc">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+            ut&nbsp;laoreet dolore.
+          </p>
+          <div class="hero__section-button">
+            <button class="hero__button button">
+              Free&nbsp;30 Day Trial
+            </button>
+            <span class="hero__text">
+              SSL secured connection
+            </span>
+          </div>
+        </div>
+      </div>
     </section>
+
     <section id="services" class="services">
-
+      <div class="container__services container">
+        <h2 class="services__title title">
+          Services
+        </h2>
+        <p class="services__text desc">
+          Lionic guides you on&nbsp;making decisions for all aspects of&nbsp;your end-of-life plans.
+        </p>
+        <ul class="services__items flex">
+          <li class="services__item">
+            <a class="services__link" href="#">
+              <svg class="services__icon" width="64" height="64" viewBox="0 0 64 64" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M63.81 15.073 53.332 48.146l.247.78a3.972 3.972 0 0 1-.263 3.05 3.97 3.97 0 0 1-1.747 1.728l-.009.033-2.366 7.47a4.007 4.007 0 0 1-5.02 2.606L32 59.957l-12.174 3.856a4.007 4.007 0 0 1-5.02-2.606L.188 15.074a3.974 3.974 0 0 1 .263-3.05 3.972 3.972 0 0 1 2.344-1.972L33.944.187a4.005 4.005 0 0 1 5.02 2.605l.076.242c.01.002.018.003.026.006l22.14 7.013a3.975 3.975 0 0 1 2.342 1.97c.492.95.585 2.032.262 3.05zM48.444 54.75l-12.028 3.81 8.562 2.71a1.335 1.335 0 0 0 1.675-.867l1.791-5.653zm2.593-5.018L36.421 3.598a1.335 1.335 0 0 0-1.672-.87L3.6 12.596a1.32 1.32 0 0 0-.78.657 1.325 1.325 0 0 0-.089 1.017L17.348 60.4c.222.7.973 1.09 1.674.87l12.541-3.973c.03-.01.057-.02.086-.028l18.523-5.867c.34-.107.616-.34.78-.657a1.32 1.32 0 0 0 .087-1.017v.002zm-2.54-16.847 4.95-15.62-11.002-3.484 6.052 19.105zM61.18 13.25a1.325 1.325 0 0 0-.78-.656L40.023 6.14l1.446 4.56c.087.01.175.03.262.057l12.518 3.965a2.65 2.65 0 0 1 1.561 1.313 2.65 2.65 0 0 1 .177 2.034l-6.092 19.227 2.038 6.434 9.335-29.463c.107-.34.076-.7-.088-1.017zM30.94 23.336a4.89 4.89 0 0 1 2.427 2.884 4.606 4.606 0 0 1-.513 3.885l-3.213 5.02a2.76 2.76 0 0 1-2.316 1.27c-.354 0-.708-.07-1.04-.205l-5.519-2.254a4.606 4.606 0 0 1-2.656-2.88 4.892 4.892 0 0 1 .322-3.756 4.89 4.89 0 0 1 2.884-2.427 4.95 4.95 0 0 1 3.262.104 4.946 4.946 0 0 1 2.607-1.964 4.897 4.897 0 0 1 3.755.323zm-.115 3.69a2.245 2.245 0 0 0-1.113-1.323 2.242 2.242 0 0 0-1.722-.148 2.243 2.243 0 0 0-1.514 1.63 1.335 1.335 0 0 1-2.178.69 2.245 2.245 0 0 0-2.177-.46 2.24 2.24 0 0 0-1.32 1.115 2.242 2.242 0 0 0-.148 1.722c.175.553.585.997 1.123 1.217l5.518 2.253a.08.08 0 0 0 .058.002.08.08 0 0 0 .046-.034l3.213-5.02c.313-.49.392-1.09.216-1.643v-.002zM44.172 40.93a2.647 2.647 0 0 1-.175 2.033 2.652 2.652 0 0 1-1.562 1.314L21.24 50.993a2.67 2.67 0 0 1-3.347-1.737L8.013 18.07a2.65 2.65 0 0 1 .175-2.034 2.65 2.65 0 0 1 1.561-1.313L30.944 8.01a2.67 2.67 0 0 1 3.348 1.736l9.88 31.186zm-2.542.805L31.75 10.55l-9.772 3.095-11.425 3.62 9.88 31.185 21.197-6.713z"
+                  fill="#3172B9" />
+              </svg>
+              <h3 class="services__subtitle">
+                Your Legacy
+              </h3>
+              <p class="services__desc desc">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+              </p>
+            </a>
+          </li>
+          <li class="services__item">
+            <a class="services__link" href="#">
+              <svg class="services__icon" width="86" height="64" viewBox="0 0 86 64" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M79.622 20.272c0 2.064-.306 4.08-.896 5.998h5.142c1.177 0 2.132.957 2.132 2.136 0 1.18-.955 2.135-2.132 2.135H77.47c-.202 0-.397-.027-.582-.08a20.375 20.375 0 0 1-3.196 4.146l-28.72 28.768a2.13 2.13 0 0 1-3.017 0L13.233 34.606a20.264 20.264 0 0 1-2.747-3.42c-.17.044-.35.068-.536.068H2.132A2.134 2.134 0 0 1 0 29.118c0-1.18.955-2.136 2.132-2.136h6.315c-2.482-7.12-.887-15.364 4.786-21.044A20.09 20.09 0 0 1 27.543 0a20.09 20.09 0 0 1 14.313 5.938l1.607 1.61 1.607-1.61A20.09 20.09 0 0 1 59.382 0a20.09 20.09 0 0 1 14.31 5.938 20.155 20.155 0 0 1 5.93 14.334zM70.678 8.957A15.86 15.86 0 0 0 59.38 4.27a15.86 15.86 0 0 0-11.296 4.687l-3.115 3.12a2.128 2.128 0 0 1-3.016 0l-3.114-3.12A15.862 15.862 0 0 0 27.543 4.27a15.857 15.857 0 0 0-11.296 4.687c-5.074 5.083-6.015 12.76-2.822 18.806h14.81L33.54 16.48c.245-.52.74-.846 1.353-.817a1.422 1.422 0 0 1 1.27.938l7.89 21.887 6.492-18.32a1.42 1.42 0 0 1 2.633-.11l3.176 6.994h17.502c2.76-5.925 1.702-13.208-3.175-18.093zm-54.43 22.63 27.215 27.257 27.215-27.258a16.065 16.065 0 0 0 1.517-1.756h-16.46c-.556 0-1.362-.257-1.592-.766l-2.097-4.62-6.642 18.745a1.42 1.42 0 0 1-1.335.946h-.004a1.42 1.42 0 0 1-1.337-.94l-8.077-22.398-4.227 8.996c-.234.498-.436.747-.987.747H15.292c.3.36.62.71.955 1.046z"
+                  fill="#3172B9" />
+              </svg>
+              <h3 class="services__subtitle">
+                Your Health
+              </h3>
+              <p class="services__desc desc">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+              </p>
+            </a>
+          </li>
+          <li class="services__item">
+            <a class="services__link" href="#">
+              <svg class="services__icon" width="68" height="66" viewBox="0 0 68 66" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M50.393 0.00398661C40.438 -0.212013 32.146 7.63799 31.9 17.512L31.776 22.483C31.742 23.839 32.833 24.973 34.2 25.003C35.567 25.032 36.713 23.947 36.746 22.591L36.871 17.62C37.049 10.471 43.062 4.77799 50.271 4.93399C57.478 5.09099 63.201 11.038 63.023 18.187C62.844 25.335 56.831 31.029 49.623 30.872L18.5 30.197C8.54499 29.981 0.252987 37.831 0.00698678 47.705C-0.240013 57.579 7.65099 65.78 17.607 65.995C27.562 66.211 35.854 58.362 36.1 48.488L36.223 43.572C36.257 42.215 35.166 41.082 33.799 41.052C32.432 41.022 31.286 42.108 31.252 43.464L31.129 48.38C30.951 55.529 24.938 61.222 17.729 61.066C10.522 60.909 4.79899 54.962 4.97699 47.813C5.15599 40.664 11.169 34.971 18.377 35.127L49.5 35.802C59.456 36.018 67.747 28.169 67.994 18.295C68.24 8.41999 60.349 0.219987 50.394 0.00498661L50.393 0.00398661Z"
+                  fill="#3172B9" />
+              </svg>
+              <h3 class="services__subtitle">
+                Funeral &amp;&nbsp;Memorial
+              </h3>
+              <p class="services__desc desc">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+              </p>
+            </a>
+          </li>
+          <li class="services__item">
+            <a class="services__link" href="#">
+              <svg class="services__icon" width="65" height="65" viewBox="0 0 65 65" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M63.13 51.506a6.393 6.393 0 0 1 0 9.03l-2.59 2.594A6.345 6.345 0 0 1 56.023 65a6.344 6.344 0 0 1-4.516-1.87l-20.52-20.517-2.86 2.862a6.343 6.343 0 0 1-1.85 5.026l-2.727 2.727a6.343 6.343 0 0 1-4.516 1.87 6.344 6.344 0 0 1-4.515-1.87L1.864 40.575a6.392 6.392 0 0 1 0-9.03L4.59 28.82a6.346 6.346 0 0 1 5.027-1.85L26.97 9.62a6.374 6.374 0 0 1 1.848-5.025l2.725-2.725A6.347 6.347 0 0 1 36.058 0c1.706 0 3.31.664 4.516 1.87l12.653 12.652a6.393 6.393 0 0 1 0 9.03l-2.725 2.726a6.346 6.346 0 0 1-5.027 1.85l-2.862 2.862L63.13 51.506zM31.165 35.784l4.62-4.62 3.46-3.46 5.154-5.153.4.4a1.68 1.68 0 0 0 2.377 0l2.725-2.724a1.68 1.68 0 0 0 0-2.376L37.246 5.197a1.676 1.676 0 0 0-1.188-.492c-.43 0-.86.164-1.188.492l-2.726 2.725a1.682 1.682 0 0 0 0 2.377l.4.4-21.85 21.846-.4-.4a1.675 1.675 0 0 0-1.188-.492c-.43 0-.86.164-1.188.492L5.193 34.87a1.68 1.68 0 0 0 0 2.376L17.846 49.9a1.68 1.68 0 0 0 2.377 0l2.725-2.725a1.68 1.68 0 0 0 0-2.377l-.4-.4 5.155-5.154 3.46-3.46zm28.64 19.05-20.52-20.517-4.97 4.97 20.52 20.516c.328.328.76.492 1.19.492.43 0 .86-.164 1.187-.492l2.594-2.593a1.68 1.68 0 0 0 0-2.376z"
+                  fill="#3172B9" />
+              </svg>
+              <h3 class="services__subtitle">
+                Legal & Financial
+              </h3>
+              <p class="services__desc desc">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+              </p>
+            </a>
+          </li>
+        </ul>
+      </div>
     </section>
+
     <section id="articles" class="articles">
-
+      <div class="container__articles container">
+        <h2 class="articles__title title">
+          Articles
+        </h2>
+        <ul class="articles__list list flex">
+          <li class="articles__item">
+            <a class="articles__link flex" href="#">
+              <img class="articles__img" src="./img/articles-jurisdiction.jpg" alt="#">
+              <div class="articles__wrap-card">
+                <time class="articles__date" datetime="">
+                  15 Nov 2021
+                </time>
+                <h3 class="articles__subtitle">
+                  Jurisdiction
+                </h3>
+                <p class="articles__desc desc">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="articles__item">
+            <a class="articles__link flex" href="#">
+              <img class="articles__img" src="./img/articles-consulting.jpg" alt="#">
+              <div class="articles__wrap-card">
+                <time class="articles__date" datetime="">
+                  28 Nov 2021
+                </time>
+                <h3 class="articles__subtitle">
+                  Consulting
+                </h3>
+                <p class="articles__desc desc">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="articles__item">
+            <a class="articles__link flex" href="#">
+              <img class="articles__img" src="./img/articles-rights.jpg" alt="#">
+              <div class="articles__wrap-card">
+                <time class="articles__date" datetime="">
+                  29 Nov 2021
+                </time>
+                <h3 class="articles__subtitle">
+                  Rights and obligations
+                </h3>
+                <p class="articles__desc desc">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="articles__item">
+            <a class="articles__link flex" href="#">
+              <img class="articles__img" src="./img/articles-contractors.jpg" alt="#">
+              <div class="articles__wrap-card">
+                <time class="articles__date" datetime="">
+                  11 Dec 2021
+                </time>
+                <h3 class="articles__subtitle">
+                  Contractors
+                </h3>
+                <p class="articles__desc desc">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                </p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
     </section>
+
     <section id="clients" class="clients">
 
     </section>

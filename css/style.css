@@ -1,0 +1,262 @@
+@font-face {
+  font-family: 'OpenSans';
+  src: url('fonts/OpenSansLight.woff2') format('woff2'),
+    url('fonts/OpenSansLight.woff') format('woff');
+    font-display: swap;
+    font-weight: 300;
+    font-style: normal; 
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('fonts/OpenSansRegular.woff2') format('woff2'),
+  url('fonts/OpenSansRegular.woff') format('woff');
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src:  url('fonts/OpenSansSemiBold.woff2') format('woff2'),
+  url('fonts/OpenSansSemiBold.woff') format('woff');
+    font-display: swap;
+    font-weight: 600;
+    font-style: normal; 
+}
+
+body {
+  font-family: OpenSans, sans-serif;
+  background: #FFFFFF;
+  /* background: #C4C4C4; */
+}
+
+/* общие стили */
+.flex {
+  display: flex;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1170px;
+  max-width: 100%;
+  /* background-color: pink; */
+}
+
+.button {
+  padding: 15px 35px;
+  border: none;
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: grab;
+  color: #FFFFFF;
+  background-color: #3172B9;
+}
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.desc {
+  color: #787878;
+}
+
+/* header section */
+.header {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.header__logo {
+  display: block;
+  margin-right: 140px;
+}
+
+.container__header {
+  align-items: center;
+}
+
+.header__item {
+  margin-right: 52px;
+}
+
+.header__link {
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight: 600;
+  white-space: nowrap;
+  color: #1C1C1C;
+}
+
+.header__link_home {
+  border-bottom: 2px solid currentColor;
+  color: #3172B9;
+}
+
+.header__btn {
+  min-width: 150px;
+  white-space: nowrap;
+  border-radius: 3px;
+}
+
+/* section hero */
+
+.hero {
+  background-image: url('../img/hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 550px;
+}
+
+.hero__content {
+  padding-top: 113px;
+  max-width: 529px;
+}
+
+.hero__title {
+  margin-bottom: 26px;
+  font-size: 40px;
+  line-height: 1.3;
+  font-weight: 300;
+  color: #1C1C1C;
+}
+
+.hero__desc {
+  max-width: 465px;
+  margin-bottom: 34px;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.hero__section-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+}
+
+.hero__button {
+  min-width: 240px;
+  margin-bottom: 14px;
+  border-radius: 3px;
+}
+
+.hero__text {
+  display: block;
+  padding-left: 25px;
+  font-size: 11px;
+  line-height: 1.5;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #787878;
+  background-image: url('../img/hero-ssl.svg');
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+/* section services */
+.services {
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.container__services {
+  padding-top: 87px;
+  padding-bottom: 160px;
+}
+
+.services__title {
+  margin-bottom: 21px;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.3;
+  font-weight: 300;
+}
+
+.services__text {
+  margin-bottom: 54px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.3;
+  font-weight: 300;
+}
+
+.services__items {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  column-gap: 30px;
+}
+
+.services__item {
+  flex-direction: column;
+  align-items: center;
+  width: 270px;
+  height: 320px;
+  border: 1px solid #E4E4E4;
+  border-radius: 5px;
+}
+
+.services__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 61px 30px;
+}
+
+.services__desc {
+  text-align: center;
+}
+
+.services__icon {
+  margin-bottom: 29px;
+}
+
+.services__subtitle {
+  margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 1.3;
+  font-weight: 600;
+  color: #1C1C1C;
+}
+/* section article */
+.articles {
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.container__articles {
+  padding-top: 87px;
+  padding-bottom: 160px;
+}
+
+.articles__list {
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.articles__item {
+  width: 570px;
+  min-height: 180px;
+  border: 1px solid #E4E4E4;
+  border-radius: 5px;
+}
+
+.articles__wrap-card {
+  padding: 23px 160px 38px 30px;
+}
+
+
