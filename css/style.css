@@ -344,4 +344,81 @@ p {
   margin-right: 17px;
 }
 
+/* section contacts */
+
+.contacts {
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.container__contacts {
+  padding-top: 87px;
+  padding-bottom: 160px;
+}
+
+.contacts__title {
+  margin-bottom: 109px;
+}
+
+.contacts__address {
+  font-style: normal;
+}
+
+.contactst__item:not(:last-child) {
+  margin-right: 189px;
+}
+
+.contactst__item {
+  flex-direction: column;
+}
+
+.contactst__item-bg1 {
+  max-width: 214px;
+  background-image: url(../img/contacts-visit.svg);
+  padding-top: 40px;
+  background-repeat: no-repeat;
+  background-size: 29px 29px;
+  background-position: top left;
+}
+
+.contactst__item-bg2 {
+  background-image: url(../img/contacts-call.svg);
+  padding-top: 40px;
+  background-repeat: no-repeat;
+  background-size: 29px 29px;
+  background-position: top left;
+}
+
+.contactst__item-bg3 {
+  background-image: url(../img/contacts-email.svg);
+  padding-top: 40px;
+  background-repeat: no-repeat;
+  background-size: 29px 29px;
+  background-position: top left;
+}
+
+.contacts__caption {
+  margin-bottom: 30px;
+  font-size: 17px;
+  line-height: 1.8;
+  font-weight: 600;
+  color: #1C1C1C;
+}
+
+.contacts__desc {
+  line-height: 1.8;
+}
+
+.contacts__link-phone {
+  font-size: 14px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #787878;
+}
+
+.contacts__link-mail {
+  font-size: 14px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #787878;
+}
 
