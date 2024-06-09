@@ -422,3 +422,144 @@ p {
   color: #787878;
 }
 
+/* section join-us */
+
+.join-us {
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.container__join-us {
+  padding-top: 87px;
+  padding-bottom: 122px;
+}
+
+.join-us__title {
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.join-us__desc {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.join-us__form {
+  padding-left: 50px;
+  padding-right: 55px;
+}
+
+.join-us__form-top {
+  justify-content: space-between;
+  margin-bottom: 19px;
+}
+
+.join-us__form-top-left {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 19px;
+  width: 49%;
+}
+
+.join-us__form-top-right {
+  width: 49%;
+}
+
+.join-us__input {
+  padding: 15px 28px;
+  width: 251px;
+  height: 60px;
+  border: 1px solid #DADADA;
+  border-radius: 50px;
+}
+
+.join-us__select {
+  padding: 15px 28px;
+  width: 251px;
+  height: 60px;
+  border: 1px solid #DADADA;
+  border-radius: 50px;
+}
+
+.join-us__comment {
+  box-sizing: border-box;
+  padding: 28px 16px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #DADADA;
+  border-radius: 20px;
+}
+
+.join-us__form-bottom {
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.join-us__btn {
+  margin-bottom: 9px;
+  width: 230px;
+  min-height: 60px;
+  border-radius: 50px;
+}
+
+.join-us__lebel {
+  font-size: 12px;
+  line-height: 1.3;
+  font-weight: 400;
+  color: #787878;
+}
+
+.join-us__form-link {
+  font-size: 12px;
+  line-height: 1.3;
+  font-weight: 400;
+}
+
+.join-us__wrap-bottom {
+  align-items: center;
+  flex-direction: column;
+}
+
+.join-us__form-link {
+  text-decoration:underline;
+  color: #3172B9;
+}
+
+/* section footer */
+
+.container__footer {
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-bottom: 45px;
+
+}
+
+.footer__logo-link {
+  margin-right: 25px;
+}
+
+.footer__copyright {
+  align-self: center;
+  font-size: 12px;
+  line-height: 1.3;
+  font-weight: 400;
+  color: #787878;
+}
+
+.footer__item-link {
+  text-wrap: nowrap;
+  font-size: 15px;
+  line-height: 1.3;
+  font-weight: 600;
+  color: #787878;
+}
+
+.footer__item:not(:last-child) {
+  margin-right: 28px;
+}
+
+.footer__icon:not(:last-child) {
+  margin-right: 32px;
+}
